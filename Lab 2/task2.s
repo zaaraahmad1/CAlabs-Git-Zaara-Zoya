@@ -2,9 +2,9 @@
 .globl main2
 
 main:
-    li x20, 1 
-    li x22, 5
-    li x23, 6
+    li x20, 0
+    li x22, 6
+    li x23, 2
 
     li x5, 1
     beq x5, x20, Case1
