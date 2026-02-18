@@ -2,8 +2,8 @@
 .globl main
 
 main:
-    addi x10, x0, 5      # a = 3
-    addi x11, x0, 2      # b = 4
+    addi x10, x0, 5      # a = 5
+    addi x11, x0, 2      # b = 2
 
     jal  x1, compute     # call compute(a,b)
 
