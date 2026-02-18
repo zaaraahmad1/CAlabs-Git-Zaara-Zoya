@@ -3,14 +3,13 @@
 
 main:
     addi x5, x0, 1        # result = 1
-    addi x10, x0, 5      # n = 5
-
+    addi x10, x0, 5       # n = 5
 
 outer_loop:
     bge x0, x10, done    # if n <= 0 → done
 
     addi x6, x10, 0      # x6 = n
-    addi x7, x0, 0        # x7 = 0  (temp result for multiplication)
+    addi x7, x0, 0       # x7 = 0  (temp result for multiplication)
 
 mul_loop:
     bge x0, x6, mul_done  # if x6 <= 0 → multiplication finished
