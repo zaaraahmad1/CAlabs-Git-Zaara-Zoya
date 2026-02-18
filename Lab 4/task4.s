@@ -15,7 +15,6 @@ after_main:
 # x11 = b
 # return in x10
 
-
 compute:
     addi x2, x2, -16     # create stack frame
     sw   x1, 12(x2)      # save ra
@@ -52,7 +51,7 @@ square:
     sw   x5, 0(x2)
 
     addi x5, x10, 0
-    mul  x10, x10, x5    # x * x (allowed if M-extension enabled)
+    mul  x10, x10, x5    # x * x
 
     lw   x5, 0(x2)
     lw   x1, 4(x2)
