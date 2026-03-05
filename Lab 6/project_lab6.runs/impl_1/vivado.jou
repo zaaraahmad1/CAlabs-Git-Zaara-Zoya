@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar  4 14:46:34 2026
+# Process ID: 25672
+# Current directory: C:/Users/zi10204/Downloads/Lab 5/Lab 5/Lab 5.runs/impl_1
+# Command line: vivado.exe -log lab6_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab6_top.tcl -notrace
+# Log file: C:/Users/zi10204/Downloads/Lab 5/Lab 5/Lab 5.runs/impl_1/lab6_top.vdi
+# Journal file: C:/Users/zi10204/Downloads/Lab 5/Lab 5/Lab 5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lab6_top.tcl -notrace

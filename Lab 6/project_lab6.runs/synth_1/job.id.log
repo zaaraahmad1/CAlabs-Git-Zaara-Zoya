@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\zi10204\Downloads\Lab 5\Lab 5\Lab 5.runs\synth_1/runme.log
+See file C:\Users\zi10204\Downloads\Lab 5\Lab 5\Lab 5.runs\synth_1/exception.log for details.
+C:\Users\zi10204\Downloads\Lab 5\Lab 5\Lab 5.runs\synth_1\rundef.js(261, 9) JavaScript runtime error: Permission denied
+
