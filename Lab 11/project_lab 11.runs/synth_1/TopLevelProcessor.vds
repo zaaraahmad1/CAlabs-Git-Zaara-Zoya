@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr 16 12:07:10 2026
+# Process ID: 19176
+# Current directory: C:/Users/za10196/Desktop/project_lab10/project_lab10.runs/synth_1
+# Command line: vivado.exe -log TopLevelProcessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevelProcessor.tcl
+# Log file: C:/Users/za10196/Desktop/project_lab10/project_lab10.runs/synth_1/TopLevelProcessor.vds
+# Journal file: C:/Users/za10196/Desktop/project_lab10/project_lab10.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TopLevelProcessor.tcl -notrace
+Command: synth_design -top TopLevelProcessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14984
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1025.223 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TopLevelProcessor' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/TopLevelProcessor.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/ProgramCounter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/ProgramCounter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/pcAdder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/pcAdder.v:3]
+INFO: [Synth 8-6157] synthesizing module 'lab10_mem' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/lab10.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'lab10_mem' (3#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/lab10.v:22]
+INFO: [Synth 8-6157] synthesizing module 'MainControl' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/MainControl.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MainControl' (4#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/MainControl.v:3]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/RegisterFile.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (5#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/RegisterFile.v:21]
+INFO: [Synth 8-6157] synthesizing module 'immGen' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/immGen.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'immGen' (6#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/immGen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALUControl' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/ALUControl.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALUControl' (7#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/ALUControl.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (8#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'addressDecoderTop' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/addressDecoderTop.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AddressDecoder' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/AddressDecoder.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'AddressDecoder' (9#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/AddressDecoder.v:21]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/DataMemory.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (10#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/DataMemory.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'addressDecoderTop' (11#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/addressDecoderTop.v:3]
+INFO: [Synth 8-6157] synthesizing module 'branchAdder' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/branchAdder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'branchAdder' (12#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/branchAdder.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/mux2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (13#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/mux2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'TopLevelProcessor' (14#1) [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/TopLevelProcessor.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1025.223 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1025.223 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1025.223 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1025.223 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/constrs_1/new/constraint.xdc]
+Finished Parsing XDC File [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/constrs_1/new/constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/constrs_1/new/constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevelProcessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevelProcessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1062.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1062.977 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1062.977 ; gain = 37.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1062.977 ; gain = 37.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1062.977 ; gain = 37.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1062.977 ; gain = 37.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	               16 Bit    Registers := 1     
++---Muxes : 
+	  33 Input   32 Bit        Muxes := 2     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 6     
+	   2 Input   16 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 34    
+	   4 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1062.977 ; gain = 37.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------------+------------+---------------+----------------+
+|Module Name       | RTL Object | Depth x Width | Implemented As | 
++------------------+------------+---------------+----------------+
+|lab10_mem         | p_0_out    | 128x8         | LUT            | 
+|lab10_mem         | p_0_out    | 128x8         | LUT            | 
+|lab10_mem         | p_0_out    | 128x8         | LUT            | 
+|lab10_mem         | p_0_out    | 128x8         | LUT            | 
+|TopLevelProcessor | p_0_out    | 128x8         | LUT            | 
+|TopLevelProcessor | p_0_out    | 128x8         | LUT            | 
+|TopLevelProcessor | p_0_out    | 128x8         | LUT            | 
+|TopLevelProcessor | p_0_out    | 128x8         | LUT            | 
++------------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------------+------------------------+-----------+----------------------+-----------------+
+|Module Name       | RTL Object             | Inference | Size (Depth x Width) | Primitives      | 
++------------------+------------------------+-----------+----------------------+-----------------+
+|TopLevelProcessor | mem_sys/mem/memory_reg | Implied   | 512 x 32             | RAM256X1S x 64	 | 
++------------------+------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1062.977 ; gain = 37.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------------+------------------------+-----------+----------------------+-----------------+
+|Module Name       | RTL Object             | Inference | Size (Depth x Width) | Primitives      | 
++------------------+------------------------+-----------+----------------------+-----------------+
+|TopLevelProcessor | mem_sys/mem/memory_reg | Implied   | 512 x 32             | RAM256X1S x 64	 | 
++------------------+------------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    25|
+|3     |LUT1      |    78|
+|4     |LUT2      |   111|
+|5     |LUT3      |   107|
+|6     |LUT4      |    39|
+|7     |LUT5      |   133|
+|8     |LUT6      |   879|
+|9     |MUXF7     |   287|
+|10    |MUXF8     |     4|
+|11    |RAM256X1S |    64|
+|12    |FDCE      |  1022|
+|13    |IBUF      |    18|
+|14    |OBUF      |    16|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1262.211 ; gain = 199.234
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1262.211 ; gain = 236.988
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1262.211 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 380 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1262.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 64 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 1262.211 ; gain = 236.988
+INFO: [Common 17-1381] The checkpoint 'C:/Users/za10196/Desktop/project_lab10/project_lab10.runs/synth_1/TopLevelProcessor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopLevelProcessor_utilization_synth.rpt -pb TopLevelProcessor_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 16 12:08:07 2026...
