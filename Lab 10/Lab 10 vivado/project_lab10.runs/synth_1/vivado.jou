@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr  9 12:26:16 2026
+# Process ID: 67732
+# Current directory: C:/Users/za10196/Downloads/project_zaara/project_zaara/project_latest.runs/synth_1
+# Command line: vivado.exe -log lab9_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab9_top.tcl
+# Log file: C:/Users/za10196/Downloads/project_zaara/project_zaara/project_latest.runs/synth_1/lab9_top.vds
+# Journal file: C:/Users/za10196/Downloads/project_zaara/project_zaara/project_latest.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab9_top.tcl -notrace
