@@ -1,20 +1,20 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../project_lab10.srcs/sources_1/new/ALU.v" \
-"../../../../project_lab10.srcs/sources_1/new/ALUControl.v" \
-"../../../../project_lab10.srcs/sources_1/new/AddressDecoder.v" \
-"../../../../project_lab10.srcs/sources_1/new/DataMemory.v" \
-"../../../../project_lab10.srcs/sources_1/new/MainControl.v" \
-"../../../../project_lab10.srcs/sources_1/new/ProgramCounter.v" \
-"../../../../project_lab10.srcs/sources_1/new/RegisterFile.v" \
-"../../../../project_lab10.srcs/sources_1/new/TopLevelProcessor.v" \
-"../../../../project_lab10.srcs/sources_1/new/addressDecoderTop.v" \
-"../../../../project_lab10.srcs/sources_1/new/branchAdder.v" \
-"../../../../project_lab10.srcs/sources_1/new/immGen.v" \
-"../../../../project_lab10.srcs/sources_1/new/lab10.v" \
-"../../../../project_lab10.srcs/sources_1/new/mux2.v" \
-"../../../../project_lab10.srcs/sources_1/new/pcAdder.v" \
-"../../../../project_lab10.srcs/sim_1/new/Toplevel_tb.v" \
+"../../../../project_lab 11.srcs/sources_1/new/ALU.v" \
+"../../../../project_lab 11.srcs/sources_1/new/ALUControl.v" \
+"../../../../project_lab 11.srcs/sources_1/new/AddressDecoder.v" \
+"../../../../project_lab 11.srcs/sources_1/new/DataMemory.v" \
+"../../../../project_lab 11.srcs/sources_1/new/MainControl.v" \
+"../../../../project_lab 11.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../project_lab 11.srcs/sources_1/new/RegisterFile.v" \
+"../../../../project_lab 11.srcs/sources_1/new/TopLevelProcessor.v" \
+"../../../../project_lab 11.srcs/sources_1/new/addressDecoderTop.v" \
+"../../../../project_lab 11.srcs/sources_1/new/branchAdder.v" \
+"../../../../project_lab 11.srcs/sources_1/new/immGen.v" \
+"../../../../project_lab 11.srcs/sources_1/new/lab10.v" \
+"../../../../project_lab 11.srcs/sources_1/new/mux2.v" \
+"../../../../project_lab 11.srcs/sources_1/new/pcAdder.v" \
+"../../../../project_lab 11.srcs/sim_1/new/Toplevel_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

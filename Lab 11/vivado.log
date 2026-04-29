@@ -1,0 +1,138 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Apr 22 19:00:04 2026
+# Process ID: 7252
+# Current directory: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20696 C:\Users\DELL\Desktop\CAlabs\CAlabs-Git-Zaara-Zoya\Lab 11\project_lab 11.xpr
+# Log file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/vivado.log
+# Journal file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/za10196/Desktop/project_lab 11' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/project_lab10/project_lab10.srcs/sources_1/new/ALU_tb.v', nor could it be found using path 'C:/Users/za10196/Desktop/project_lab10/project_lab10.srcs/sources_1/new/ALU_tb.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/DELL/Desktop/CAlabs/Downloads/project_zaara/project_zaara/project_latest.srcs/sources_1/new/Control_tb.v', nor could it be found using path 'C:/Users/za10196/Downloads/project_zaara/project_zaara/project_latest.srcs/sources_1/new/Control_tb.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:19 . Memory (MB): peak = 1015.402 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevelProcessor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.sim/sim_1/behav/xsim/program.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevelProcessor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/AddressDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddressDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/MainControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/TopLevelProcessor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevelProcessor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/addressDecoderTop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addressDecoderTop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/branchAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branchAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/lab10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab10_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sources_1/new/pcAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sim_1/new/Toplevel_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevelProcessor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 1015.402 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '15' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.sim/sim_1/behav/xsim'
+"xelab -wto 92bc6c52b5fa4a339bbdbe521a7e075f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevelProcessor_tb_behav xil_defaultlib.TopLevelProcessor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 92bc6c52b5fa4a339bbdbe521a7e075f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevelProcessor_tb_behav xil_defaultlib.TopLevelProcessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches' is not connected on this instance [C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sim_1/new/Toplevel_tb.v:6]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.pcAdder
+Compiling module xil_defaultlib.lab10_mem
+Compiling module xil_defaultlib.MainControl
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.AddressDecoder
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.addressDecoderTop
+Compiling module xil_defaultlib.branchAdder
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.TopLevelProcessor
+Compiling module xil_defaultlib.TopLevelProcessor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopLevelProcessor_tb_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab -notrace
+couldn't read file "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 22 19:02:49 2026...
+run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:28 . Memory (MB): peak = 1015.402 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '28' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopLevelProcessor_tb_behav -key {Behavioral:sim_1:Functional:TopLevelProcessor_tb} -tclbatch {TopLevelProcessor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source TopLevelProcessor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 260 ns : File "C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Lab 11/project_lab 11.srcs/sim_1/new/Toplevel_tb.v" Line 20
+xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.402 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopLevelProcessor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:34 ; elapsed = 00:00:54 . Memory (MB): peak = 1015.402 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1015.402 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 24 15:40:23 2026...
