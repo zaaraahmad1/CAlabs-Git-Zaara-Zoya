@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May 10 18:45:18 2026
+# Process ID: 5716
+# Current directory: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15372 C:\Users\DELL\Desktop\CAlabs\CAlabs-Git-Zaara-Zoya\Project\Task A Final\Task A Final.xpr
+# Log file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final/vivado.log
+# Journal file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final/Task A Final.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/DELL/Desktop/Task A Final' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:19 . Memory (MB): peak = 1015.945 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 10 18:53:25 2026...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May 10 18:45:18 2026
+# Process ID: 5716
+# Current directory: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15372 C:\Users\DELL\Desktop\CAlabs\CAlabs-Git-Zaara-Zoya\Project\Task A Final\Task A Final.xpr
+# Log file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final/vivado.log
+# Journal file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/Task A Final/Task A Final.xpr}
+update_compile_order -fileset sources_1
