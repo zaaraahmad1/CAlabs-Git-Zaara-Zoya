@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr 30 10:43:25 2026
+# Process ID: 13872
+# Current directory: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/TaskB/TaskB.runs/synth_1
+# Command line: vivado.exe -log taskB_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source taskB_top.tcl
+# Log file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/TaskB/TaskB.runs/synth_1/taskB_top.vds
+# Journal file: C:/Users/DELL/Desktop/CAlabs/CAlabs-Git-Zaara-Zoya/Project/TaskB/TaskB.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source taskB_top.tcl -notrace
